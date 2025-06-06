@@ -1,0 +1,33 @@
+
+.container-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-page .color-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    gap: 20px;
+    padding: 40px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.container-tbx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.container-tbx .input-tbx input{
+    width: 200px;
+}
