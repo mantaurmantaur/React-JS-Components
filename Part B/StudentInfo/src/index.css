@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background: #b6bdc0d1;
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 15px;
+}
+
+input {
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 200px;
+}
+
+.radio-group {
+  border: none;
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  padding: 0;
+}
+
+.radio-group legend {
+  font-weight: bold;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.info input[type="text"] {
+  width: 430px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-input {
+  padding: 6px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-input:hover {
+  background-color: #45a049;
+}
