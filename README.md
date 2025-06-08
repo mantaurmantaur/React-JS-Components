@@ -11,7 +11,7 @@ This project contains three simple functional React components built with Next.j
 
 **1. WelcomeCard**<br><br>
 
-**Purpose:**
+**Purpose:** 
 
 Displays a welcome message based on props. Have different output for different status of students.<br><br>
 
@@ -23,24 +23,30 @@ Displays a welcome message based on props. Have different output for different s
 
 **logo**: For picture
 
-**Usage:**<br><br>
+**Usage:** <br><br>
 
-\`\`\`{students.map((students, index) =>
 
-        students.status === "member" ? (
-        
-          <Card name={students.name} message={message} logo={logo} />
-          
-        ) : (
-        
-          <Card name={students.name} logo={profilePicture} />
-          
-        )
-        
-      )}\`\`\`
+```jsx
+{students.map((student, index) => 
+  student.status === "member" ? (
+    <Card
+      key={index}
+      name={student.name}
+      message={message}
+      logo={logo}
+    />
+  ) : (
+    <Card
+      key={index}
+      name={student.name}
+      logo={profilePicture}
+    />
+  )
+)}
       
-
-**Features:** <br><br>
+<br><br>
+**Features:**
+<br><br>
 
 Functional component using props
 
