@@ -1,5 +1,5 @@
 # React Components Project
-This project contains three simple functional React components built with Next.js:
+This project contains three simple functional React components built with Next.js:<br><br>
 
 **WelcomeCard** – Displays a customizable welcome message using props
 
