@@ -62,7 +62,7 @@ An interactive counter that allows users to increment, decrement, and reset the 
 
 **Usage:**
 
-<Counter /><br><br>
+```<Counter />```<br><br>
 
 **Features:**
 
@@ -108,11 +108,11 @@ Student Status<br><br>
 
 **Usage:**
 
-<BasicInfo data={basicInfo} onChange={setBasicInfo} />
+```<BasicInfo data={basicInfo} onChange={setBasicInfo} />```
 
-<ContactInfo data={contactInfo} onChange={setContactInfo} />
+```<ContactInfo data={contactInfo} onChange={setContactInfo} />```
 
-<EducationBackground data={education} onChange={setEducation} /><br><br>
+```<EducationBackground data={education} onChange={setEducation} /><br><br>```
 
 **Features:**
 
