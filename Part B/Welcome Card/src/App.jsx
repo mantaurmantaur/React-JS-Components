@@ -16,7 +16,7 @@ function App() {
     <>
       {students.map((students, index) =>
         students.status === "member" ? (
-          <Card name={students.name} details={message} logo={logo} />
+          <Card name={students.name} message={message} logo={logo} />
         ) : (
           <Card name={students.name} logo={profilePicture} />
         )

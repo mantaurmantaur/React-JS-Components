@@ -10,7 +10,7 @@ function Card(props) {
       </div>
       <div className="details-container">
         <h2 className="card-title">Welcome, {props.name}!</h2>
-        <p className="card-description">{props.details}</p>
+        <p className="card-description">{props.message}</p>
       </div>
     </div>
   );
