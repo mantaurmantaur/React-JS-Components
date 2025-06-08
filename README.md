@@ -9,11 +9,11 @@ This project contains three simple functional React components built with Next.j
 
 # 🔧 Components
 
-**1. WelcomeCard**
+**1. WelcomeCard**<br><br>
 
 **Purpose:**
 
-Displays a welcome message based on props. Have different output for different status of students.
+Displays a welcome message based on props. Have different output for different status of students.<br><br>
 
 **Props:**
 
@@ -23,7 +23,7 @@ Displays a welcome message based on props. Have different output for different s
 
 **logo**: For picture
 
-**Usage:**
+**Usage:**<br><br>
 
 \`\`\`{students.map((students, index) =>
 
@@ -40,22 +40,22 @@ Displays a welcome message based on props. Have different output for different s
       )}\`\`\`
       
 
-**Features:**
+**Features:** <br><br>
 
 Functional component using props
 
-Simple card-style layout using CSS
+Simple card-style layout using CSS<br><br>
 
 
-**2. Counter**
+**2. Counter**<br><br>
 
 **Purpose:**
 
-An interactive counter that allows users to increment, decrement, and reset the value.
+An interactive counter that allows users to increment, decrement, and reset the value.<br><br>
 
 **Usage:**
 
-<Counter />
+<Counter /><br><br>
 
 **Features:**
 
@@ -63,14 +63,14 @@ Uses useState for state management
 
 Three buttons: Increment, Decrement, and Reset
 
-Displays current count
+Displays current count<br><br>
 
 
-**3. StudentInfo**
+**3. StudentInfo**<br><br>
 
 **Purpose:**
 
-Collects and displays student data through a form.
+Collects and displays student data through a form.<br><br>
 
 **Fields:**
 
@@ -85,6 +85,7 @@ Last name
 Birthdate
 
 Age
+
 Email Address
 
 Phone Number
@@ -95,7 +96,7 @@ Current Year Level
 
 Course/Program
 
-Student Status
+Student Status<br><br>
 
 
 **Usage:**
@@ -104,7 +105,7 @@ Student Status
 
 <ContactInfo data={contactInfo} onChange={setContactInfo} />
 
-<EducationBackground data={education} onChange={setEducation} />
+<EducationBackground data={education} onChange={setEducation} /><br><br>
 
 **Features:**
 
