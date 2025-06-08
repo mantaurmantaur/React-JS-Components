@@ -2,7 +2,9 @@
 This project contains three simple functional React components built with Next.js:
 
 **WelcomeCard** – Displays a customizable welcome message using props
+
 **Counter** – An interactive counter using React state
+
 **StudentInfo** – A form for inputting and displaying student information
 
 # 🔧 Components
